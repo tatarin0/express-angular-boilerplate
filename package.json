@@ -1,5 +1,5 @@
 {
-  "name": "web-boilerplate",
+  "name": "express-angular-boilerplate",
   "version": "1.0.0",
   "description": "boilerplate for dynamic angular-nodejs applications",
   "main": "server.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@usolxpgithub01.use.ucdp.net:universal-parks-technology/web-boilerplate.git"
+    "url": "https://github.com/tatarin0/express-angular-boilerplate.git"
   },
   "keywords": [
     "nodejs",
     "express",
     "angular"
   ],
-  "author": "Universal Orlando",
+  "author": "Tim",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",

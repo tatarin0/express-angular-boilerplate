@@ -1,5 +1,5 @@
 {
-	"name": "web-boilerplate-app",
+	"name": "express-angular-boilerplate-app",
 	"version": "0.0.1",
 	"license": "MIT",
 	"scripts": {
@@ -25,7 +25,6 @@
 		"lodash": "^4.17.10",
 		"moment": "^2.22.1",
 		"rxjs": "^5.5.6",
-		"uo-primer-angular": "git+ssh://git@usolxpgithub01.use.ucdp.net:universal-parks-technology/uo-primer-angular.git#master",
 		"zone.js": "^0.8.19"
 	},
 	"devDependencies": {
