@@ -1,0 +1,22 @@
+{
+	"extends": "../tsconfig.json",
+	"compilerOptions": {
+		"strict": true,
+		"noImplicitAny": true,
+		"strictNullChecks": true,
+		"noImplicitThis": true,
+		"alwaysStrict": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"outDir": "../out-tsc/app",
+		"baseUrl": "./",
+		"module": "es2015",
+		"types": []
+	},
+	"exclude": [
+		"test.ts",
+		"**/*.spec.ts"
+	]
+}
