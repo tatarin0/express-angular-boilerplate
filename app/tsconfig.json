@@ -1,18 +1,15 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    /* Strict Type-Checking Options */
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
     "noImplicitThis": true,
     "alwaysStrict": true,
-    /* Additional Checks */
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
-    /* Other Settings */
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
     "declaration": false,
@@ -26,6 +23,8 @@
     "lib": [
       "es2017",
       "dom"
-    ]
+    ],
+    "module": "es2015",
+    "baseUrl": "./"
   }
 }
