@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "web-boilerplate-app": {
+    "express-angular-boilerplate-app": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -50,21 +50,21 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "web-boilerplate-app:build"
+            "browserTarget": "express-angular-boilerplate-app:build"
           },
           "configurations": {
             "prod": {
-              "browserTarget": "web-boilerplate-app:build:prod"
+              "browserTarget": "express-angular-boilerplate-app:build:prod"
             },
             "production": {
-              "browserTarget": "web-boilerplate-app:build:production"
+              "browserTarget": "express-angular-boilerplate-app:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "web-boilerplate-app:build"
+            "browserTarget": "express-angular-boilerplate-app:build"
           }
         },
         "test": {
@@ -98,7 +98,7 @@
         }
       }
     },
-    "web-boilerplate-app-e2e": {
+    "express-angular-boilerplate-app-e2e": {
       "root": "e2e",
       "sourceRoot": "e2e",
       "projectType": "application",
@@ -107,7 +107,7 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "./protractor.conf.js",
-            "devServerTarget": "web-boilerplate-app:serve"
+            "devServerTarget": "express-angular-boilerplate-app:serve"
           }
         },
         "lint": {
@@ -124,7 +124,7 @@
       }
     }
   },
-  "defaultProject": "web-boilerplate-app",
+  "defaultProject": "express-angular-boilerplate-app",
   "schematics": {
     "@schematics/angular:component": {
       "prefix": "app",

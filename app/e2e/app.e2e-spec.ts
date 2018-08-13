@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('web-boilerplate-app App', () => {
+describe('express-angular-boilerplate-app App', () => {
   let page: AppPage;
 
   beforeEach(() => {
